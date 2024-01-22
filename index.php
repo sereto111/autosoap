@@ -103,7 +103,7 @@ try {
                         <?= "Modelos " . $value ?>
                     </a>
                     <br>
-                    <a href="<?= htmlspecialchars($vid) ?>" data-fancybox data-type="iframe" class="fancybox.iframe">
+                    <a href="<?= htmlspecialchars("https://www.youtube.com/embed/".$videoId) ?>" data-fancybox data-type="iframe" class="fancybox.iframe">
                         <?= "Vídeo " . $value ?>
                     </a>
                 </div>
